@@ -1,0 +1,49 @@
+.taskByName h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+form {
+  max-width: 50rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-container .input-name {
+  font-family: "Poppins";
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+}
+
+.form-container label {
+  display: none;
+}
+
+.task h2 {
+  text-align: start;
+}
+
+.task-not-found {
+  border-top: 1px solid #777;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-width: 100%;
+}
+
+.task-name {
+  border-top: 1px solid #777;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-width: 100%;
+}
