@@ -35,9 +35,7 @@ const Home = () => {
             <div className="task" key={task.id}>
               <h2>{task.title}</h2>
               <p>{task.description}</p>
-              <Link to={`/tasks/${task.id}`} className="btn">
-                Ver mais
-              </Link>
+              <Link className="btn">Ver mais</Link>
             </div>
           );
         })
