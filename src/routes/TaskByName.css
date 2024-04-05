@@ -41,7 +41,7 @@ form {
   border-width: 100%;
 }
 
-.task-name {
+.task-name:first-child {
   border-top: 1px solid #777;
   margin-top: 2rem;
   padding-top: 2rem;

@@ -18,7 +18,7 @@ const TasksByName = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const name = taskName.trim();
+    const name = taskName.trim().toLowerCase();
     const nameIsValid = /^[a-zA-Z\s]+$/.test(name);
     if (name && nameIsValid) {
       getTaskByName(name);
@@ -33,9 +33,7 @@ const TasksByName = () => {
       <div className="task task-name" key={task.id}>
         <h2>{task.title}</h2>
         <p>{task.description}</p>
-        <Link to={`/tasks/${task.id}`} className="btn">
-          Ver mais
-        </Link>
+        <Link className="btn">Ver mais</Link>
       </div>
     ));
   }
